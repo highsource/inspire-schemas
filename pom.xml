@@ -51,7 +51,8 @@
 		<!-- Schemas -->
 		<module>schemas</module>
 		<module>schema-parent</module>
-		<!--module>dtd-parent</module>
+		<module>tn-ra</module>
+		<!--module>arml</module>
 		<module>arml</module>
 		<module>citygml</module>
 		<module>context</module>

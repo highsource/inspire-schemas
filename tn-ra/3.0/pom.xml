@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>inspire-v_3_0</artifactId>
+	<artifactId>inspire-tn-ra-v_3_0</artifactId>
 	<packaging>jar</packaging>
 	<name>INSPIRE 3.0</name>
 	<parent>
@@ -70,14 +70,14 @@
 								<version>${ogc-schemas.version}</version>
 							</dependencyResource>
 						</binding-->
-						<binding>
+						<!--binding>
 							<dependencyResource>
 								<groupId>org.jvnet.ogc</groupId>
 								<artifactId>gml-v_3_2_1</artifactId>
 								<resource>gml-v_3_2_1.jsonix.xjb</resource>
 								<version>${ogc-schemas.version}</version>
 							</dependencyResource>
-						</binding>
+						</binding-->
 						<!--binding>
 							<dependencyResource>
 								<groupId>org.jvnet.ogc</groupId>
@@ -110,14 +110,14 @@
 								<version>${project.version}</version>
 							</dependencyResource>
 						</binding-->
-						<binding>
+						<!--binding>
 							<dependencyResource>
 								<groupId>org.hisrc.w3c</groupId>
 								<artifactId>xlink-v_1_0</artifactId>
 								<resource>xlink-v_1_0.jsonix.xjb</resource>
 								<version>${w3c-schemas.version}</version>
 							</dependencyResource>
-						</binding>
+						</binding-->
 					</bindings>
 				</configuration>
 			</plugin>
