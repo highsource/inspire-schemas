@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>org.hisrc.inspire</groupId>
 		<artifactId>inspire-schema-parent</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../../schema-parent/pom.xml</relativePath>
 	</parent>
 	<dependencies>
