@@ -52,54 +52,6 @@
 		<module>schemas</module>
 		<module>schema-parent</module>
 		<module>tn-ra</module>
-		<!--module>arml</module>
-		<module>arml</module>
-		<module>citygml</module>
-		<module>context</module>
-		<module>csw</module>
-		<module>eop</module>
-		<module>eosps</module>
-		<module>filter</module>
-		<module>gml</module>
-		<module>gmlcov</module>
-		<module>gmljp2</module>
-		<module>ic</module>
-		<module>indoorgml</module>
-		<module>iso19139</module>
-		<module>iso19139-2</module>
-		<module>kml</module>
-		<module>ols</module>
-		<module>om</module>
-		<module>omeo</module>
-		<module>omx</module>
-		<module>oseo</module>
-		<module>owc</module>
-		<module>ows</module>
-		<module>sampling</module>
-		<module>samplingSpatial</module>
-		<module>samplingSpecimen</module>
-		<module>se</module>
-		<module>sensorML</module>
-		<module>sld</module>
-		<module>sos</module>
-		<module>sps</module>
-		<module>sweCommon</module>
-		<module>swes</module>
-		<module>tjs</module>
-		<module>tml</module>
-		<module>wami</module>
-		<module>waterml</module>
-		<module>wcps</module>
-		<module>wcs</module>
-		<module>wcst</module>
-		<module>wfs</module>
-		<module>wms</module>
-		<module>wmsc</module>
-		<module>wmts</module>
-		<module>wps</module>
-		<module>xal</module>
-		<module>scripts</module>
-		<module>dist</module-->
 	</modules>
 	<profiles>
 		<profile>
@@ -113,11 +65,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
 		<jaxb2-basics.version>0.11.0</jaxb2-basics.version>
 		<jaxb.version>2.2.11</jaxb.version>
-		<maven-jaxb2-plugin.version>0.13.1</maven-jaxb2-plugin.version>
-		<ogc-schemas.version>2.6.0</ogc-schemas.version>
+		<maven-jaxb2-plugin.version>0.13.2</maven-jaxb2-plugin.version>
+		<ogc-schemas.version>2.6.1</ogc-schemas.version>
 		<w3c-schemas.version>1.4.0</w3c-schemas.version>
-		<jsonix-schema-compiler.version>2.3.8</jsonix-schema-compiler.version>
-		<jsonix.version>2.4.0</jsonix.version>
+		<jsonix-schema-compiler.version>2.3.9</jsonix-schema-compiler.version>
+		<jsonix.version>2.4.1</jsonix.version>
 	</properties> 
 	<dependencies>
 		<dependency>
