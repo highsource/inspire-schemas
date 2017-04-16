@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>org.hisrc.inspire</groupId>
 		<artifactId>inspire-schema-parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 		<relativePath>../../schema-parent/pom.xml</relativePath>
 	</parent>
 	<dependencies>
@@ -27,21 +27,6 @@
 			<artifactId>iso19139-v_20070417</artifactId>
 			<version>${ogc-schemas.version}</version>
 		</dependency>
-		<!--dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>sweCommon-v_1_0_0</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>om-v_2_0</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>ows-v_2_0</artifactId>
-			<version>${project.version}</version>
-		</dependency-->
 	</dependencies>
 	<build>
 		<defaultGoal>install</defaultGoal>
@@ -62,62 +47,6 @@
 								<version>${project.version}</version>
 							</dependencyResource>
 						</binding>
-						<!--binding>
-							<dependencyResource>
-								<groupId>org.jvnet.ogc</groupId>
-								<artifactId>gml-v_3_2_1</artifactId>
-								<resource>iso19139-v_20070417.ignore.xjb</resource>
-								<version>${ogc-schemas.version}</version>
-							</dependencyResource>
-						</binding-->
-						<!--binding>
-							<dependencyResource>
-								<groupId>org.jvnet.ogc</groupId>
-								<artifactId>gml-v_3_2_1</artifactId>
-								<resource>gml-v_3_2_1.jsonix.xjb</resource>
-								<version>${ogc-schemas.version}</version>
-							</dependencyResource>
-						</binding-->
-						<!--binding>
-							<dependencyResource>
-								<groupId>org.jvnet.ogc</groupId>
-								<artifactId>iso19139-v_20070417</artifactId>
-								<resource>iso19139-v_20070417.jsonix.xjb</resource>
-								<version>${ogc-schemas.version}</version>
-							</dependencyResource>
-						</binding-->
-						<!--binding>
-							<dependencyResource>
-								<groupId>${project.groupId}</groupId>
-								<artifactId>sweCommon-v_1_0_0</artifactId>
-								<resource>sweCommon-v_1_0_0.jsonix.xjb</resource>
-								<version>${project.version}</version>
-							</dependencyResource>
-						</binding>
-						<binding>
-							<dependencyResource>
-								<groupId>${project.groupId}</groupId>
-								<artifactId>om-v_2_0</artifactId>
-								<resource>om-v_2_0.jsonix.xjb</resource>
-								<version>${project.version}</version>
-							</dependencyResource>
-						</binding>
-						<binding>
-							<dependencyResource>
-								<groupId>${project.groupId}</groupId>
-								<artifactId>ows-v_2_0</artifactId>
-								<resource>ows-v_2_0.jsonix.xjb</resource>
-								<version>${project.version}</version>
-							</dependencyResource>
-						</binding-->
-						<!--binding>
-							<dependencyResource>
-								<groupId>org.hisrc.w3c</groupId>
-								<artifactId>xlink-v_1_0</artifactId>
-								<resource>xlink-v_1_0.jsonix.xjb</resource>
-								<version>${w3c-schemas.version}</version>
-							</dependencyResource>
-						</binding-->
 					</bindings>
 				</configuration>
 			</plugin>
@@ -130,9 +59,6 @@
 							<target>
 								<delete dir="${basedir}/target/generated-sources/xjc/net/opengis/gml"/>
 								<delete dir="${basedir}/target/generated-sources/xjc/net/opengis/iso19139"/>
-								<!--delete dir="${basedir}/target/generated-sources/xjc/net/opengis/om"/>
-								<delete dir="${basedir}/target/generated-sources/xjc/net/opengis/ows"/>
-								<delete dir="${basedir}/target/generated-sources/xjc" includes="OM_*.*"/-->
 							</target>
 						</configuration>
 						<goals>

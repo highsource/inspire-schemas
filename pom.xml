@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.hisrc.inspire</groupId>
 	<artifactId>inspire-schemas-project</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>INSPIRE Schemas Project</name>
 	<url>https://github.com/highsource/inspire-schemas</url>
